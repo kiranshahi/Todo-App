@@ -1,11 +1,6 @@
-﻿using JetBrains.Annotations;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
 
-namespace Todo.Models
+namespace TodoApp.Models
 {
     public class TodoContext : DbContext
     {

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Todo.Models;
+using TodoApp.Models;
 
-namespace Todo.Controllers
+namespace TodoApp.Controllers
 {
     public class HomeController : Controller
     {
