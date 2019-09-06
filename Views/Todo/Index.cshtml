@@ -37,7 +37,7 @@
                 @Html.DisplayFor(modelItem => item.Details)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IsComplete)
+                @Html.Label(item.IsComplete ? "Complete" : "In Progress")
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ActivityDate)
