@@ -6,6 +6,7 @@ This is an demo app on getting started with Entity Framework Core that was prese
 
 1. Clone the reop with `git clone https://github.com/kiranshahi/Todo-App.git` or `git clone git@github.com:kiranshahi/Todo-App.git`
 2. Change the connection string from appsettings.json if required.
-3. Build the project and run
+3. Run migration with `Update-Database` command from Package Manage Console or `dotnet ef database update` from cmd or console.
+4. Build the project and run
 
 [Slide is available at slideshare](https://www.slideshare.net/KiranShahi2/entity-framework-core-169821404)
